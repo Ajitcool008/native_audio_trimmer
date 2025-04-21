@@ -1,6 +1,6 @@
 name: native_audio_trimmer
 description: A Flutter plugin for trimming audio files on Android and iOS without using FFmpeg.
-version: 0.0.1
+version: 0.0.3
 homepage: https://github.com/Ajitcool008/native_audio_trimmer
 repository: https://github.com/Ajitcool008/native_audio_trimmer
 issue_tracker: https://github.com/Ajitcool008/native_audio_trimmer/issues
