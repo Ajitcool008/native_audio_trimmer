@@ -1,0 +1,37 @@
+name: native_audio_trimmer_example
+description: Demonstrates how to use the native_audio_trimmer plugin.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`.
+publish_to: 'none'
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+  flutter: ">=3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  native_audio_trimmer:
+    # When depending on this package from a real application you should use:
+    # native_audio_trimmer: ^0.0.1
+    # The example app depends on the plugin itself
+    path: ../
+    
+  # For file picking
+  file_picker: ^5.2.10
+  
+  # For audio playback
+  audioplayers: ^5.0.0
+  
+  # For accessing temporary directory
+  path_provider: ^2.0.15
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
