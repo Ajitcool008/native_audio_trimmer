@@ -25,5 +25,7 @@ flutter:
       android:
         package: com.levnext.native_audio_trimmer
         pluginClass: NativeAudioTrimmerPlugin
+        dartPluginClass: NativeAudioTrimmer
       ios:
         pluginClass: NativeAudioTrimmerPlugin
+        dartPluginClass: NativeAudioTrimmer
