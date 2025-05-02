@@ -1,4 +1,4 @@
-## 0.0.1
+## 0.0.5
 
 * Initial release
 * Implemented trimAudio method for iOS and Android platforms

@@ -16,7 +16,7 @@ Add this to your package's `pubspec.yaml` file:
 
 ```yaml
 dependencies:
-  native_audio_trimmer: ^0.0.1
+  native_audio_trimmer: ^0.0.4
 ```
 
 ### Android
@@ -52,12 +52,13 @@ try {
   String outputPath = '/path/to/output.m4a';
   
   // Trim from 10 seconds to 30 seconds
-  String trimmedFilePath = await audioTrimmer.trimAudio(
-    inputPath,
-    outputPath,
-    10.0, // Start time in seconds
-    30.0, // End time in seconds
-  );
+      // Trim audio
+      final trimmedFilePath = await NativeAudioTrimmer.trimAudio(
+        inputPath: inputPath,
+        outputPath: outputPath,
+        startTimeInSeconds: 10.0, // Start time in seconds,
+        endTimeInSeconds: 30.0, // End time in seconds,
+      );
   
   print('Trimmed audio saved at: $trimmedFilePath');
 } catch (e) {
