@@ -1,6 +1,6 @@
 # native_audio_trimmer
 
-A Flutter plugin for trimming audio files on both Android and iOS platforms without using FFmpeg.
+A Flutter plugin for trimming audio files on both Android and iOS platforms without using FFmpeg. This native audio editor provides powerful audio manipulation capabilities, perfect for Flutter audio trimming in apps, podcast trimming, and voice note editing.
 
 ## Features
 
@@ -16,7 +16,7 @@ Add this to your package's `pubspec.yaml` file:
 
 ```yaml
 dependencies:
-  native_audio_trimmer: ^0.0.4
+  native_audio_trimmer: ^1.0.0
 ```
 
 ### Android

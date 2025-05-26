@@ -34,7 +34,9 @@ class _MyAppState extends State<MyApp> {
 
   Future<void> _pickAudioFile() async {
     try {
-      FilePickerResult? result = await FilePicker.platform.pickFiles();
+      FilePickerResult? result = await FilePicker.platform.pickFiles(
+        type: FileType.audio,
+      );
 
       if (result != null) {
         setState(() {
